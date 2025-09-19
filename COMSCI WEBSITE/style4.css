@@ -1,0 +1,68 @@
+body {
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    padding: 5px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/021/039/592/non_2x/sunrise-with-yellow-sky-and-cloud-with-bright-light-in-morning-sunset-sky-on-springtime-horizon-golden-hours-with-orange-sky-in-evening-summer-beautiful-natural-banner-for-all-season-background-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.Header {
+    background-color: rgb(225, 169, 57);
+    text-align: right;
+    padding: 5px;
+    display: flex;
+}
+
+.Header img {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 15px;
+    
+}
+
+.navactive a {
+    color: blue;
+}
+
+.body title {
+    margin-top: auto;
+}
+
+.caption {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dotted rgb(255, 255, 255);
+    border-spacing: 10px
+    
+}
+
+th, td {
+    border: 5px solid rgb(243, 179, 77);
+    padding: 2px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
